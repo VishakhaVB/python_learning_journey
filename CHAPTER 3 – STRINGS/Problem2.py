@@ -6,3 +6,9 @@
 # ''
 
 
+letter = ''' 
+Dear <|Name|>,
+You are selected!
+<|Date|>
+'''
+print(letter.replace("<|Name|>", "Vishakha").replace("<|Date|>", "5 May 2026"))
