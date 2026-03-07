@@ -1,18 +1,14 @@
 # 3. A spam comment is defined as a text containing following keywords:
 # "Make a lot of money", "buy now", "subscribe this", "click this". Write a program 
 # to detect these spams.
+p1="make a lot of money"
+p2="buy now"
+p3="subscribe this"
+p4="click this"
 
-comment = input("Enter your comment: ")
-
-spam_keywords = ["make a lot of money", "buy now", "subscribe this", "click this"]
-
-is_spam = False
-for keyword in spam_keywords:
-    if keyword.lower() in comment.lower():
-        is_spam = True
-        break
-
-if is_spam:
-    print("This comment is SPAM!")
+comment = input("Enter your comment: ") 
+if p1 in comment or p2 in comment or p3 in comment or p4 in comment:
+    print("This is a spam comment." )
 else:
-    print("This comment is NOT spam.")
+    print("This is not a spam comment.")
+
