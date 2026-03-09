@@ -17,7 +17,7 @@ by writing code regularly and building small projects.
 - File Handling
 - Object-Oriented Programming
 - Advanced Concepts
-
+---
 ## Projects
 - Mini practice programs
 - Small games
