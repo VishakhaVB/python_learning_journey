@@ -20,7 +20,6 @@ by writing code regularly and building small projects.
 ---
 ## Projects
 - Mini practice programs
-- Small games
 - Concept-based implementations
 
 ---
