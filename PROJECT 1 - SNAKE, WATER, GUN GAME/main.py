@@ -15,6 +15,14 @@ computer=1
 you =input("Enter your choice : " )
 youdict ={ "s":1, "w":-1,"g":0 }
 younum =youdict[you]
-print(younum)
+
+if(computer==younum):
+    print("Draw")
+else:
+    if((computer==1 and younum==-1) or (computer==-1 and younum==0) or (computer==0 and younum==1)):
+        print("Computer wins")
+    else:
+        print("You win")
+
 
 
