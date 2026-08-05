@@ -10,11 +10,18 @@
 #-1 water
 #0 gun
 
-computer=1
+import random
+
+num = random.choice([-1, 1, 0])
+
+computer=num
 
 you =input("Enter your choice : " )
 youdict ={ "s":1, "w":-1,"g":0 }
 younum =youdict[you]
+compdict = {1:"Snake", -1:"Water", 0:"Gun"}
+print(f"Computer chose {compdict[computer]}")
+print(f"You chose {compdict[younum]}")
 
 if(computer==younum):
     print("Draw")
