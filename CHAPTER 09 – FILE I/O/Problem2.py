@@ -4,8 +4,6 @@
 #    score whenever the game() function breaks the Hi-score.
 
 import os
-
-
 def game():
 	# simple deterministic demo game returning a score
 	return 42

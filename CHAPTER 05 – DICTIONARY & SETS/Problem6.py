@@ -15,6 +15,7 @@ name=input("Enter name of friend 3 : ")
 language=input("Enter favorite language of friend 3 : ")
 dictionary.update({name:language})
 
+
 name=input("Enter name of friend 4 : ")
 language=input("Enter favorite language of friend 4 : ")
 dictionary.update({name:language})

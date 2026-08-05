@@ -4,8 +4,6 @@
 # You are selected!
 # <|Date|>
 # ''
-
-
 letter = ''' 
 Dear <|Name|>,
 You are selected!
