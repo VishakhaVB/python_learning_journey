@@ -6,7 +6,7 @@ def wipe_file(path):
 	return True
 
 
-# Demo
+
 sample = 'wipe_demo.txt'
 with open(sample, 'w', encoding='utf-8') as f:
 	f.write('to be wiped')

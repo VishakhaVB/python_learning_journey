@@ -4,7 +4,6 @@
 
 
 import os
-
 # Specify the directory path
 directory_path = "/"
 

@@ -19,7 +19,5 @@ class Calculator:
     def greet():
         return 'Hello'
 
-
-# Demo
 print(Calculator.greet())
 print('square(4)=', Calculator.square(4))

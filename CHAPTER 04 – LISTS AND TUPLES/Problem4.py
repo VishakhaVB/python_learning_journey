@@ -2,4 +2,5 @@
 
 list1=[10,20,30,40]
 total=sum(list1)
+
 print("The sum of the list is: ", total)

@@ -8,7 +8,6 @@ def remove_and_strip(words, target):
 	"""
 	return [w.strip() for w in words if w.strip() != target]
 
-
 # simple demo
 sample = [" apple ", "banana", " apple", "cherry "]
 target = "apple"

@@ -2,7 +2,6 @@
 # characters or not.
 
 username = input("Enter your username: ")
-
 if len(username) < 10:
     print(f"Username '{username}' contains less than 10 characters.")
 else:

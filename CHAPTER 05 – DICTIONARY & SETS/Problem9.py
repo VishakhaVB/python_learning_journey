@@ -2,7 +2,7 @@
 # Can you change the values inside a list which is contained in set S?
 # s = {8, 7, 12, "Harry", [1,2]}
 
-# ❌ No, you cannot change the values inside the list because the set itself is invalid.
+# Ans :❌ No, you cannot change the values inside the list because the set itself is invalid.
 
 # s = {8, 7, 12, "Harry", [1,2]}
 

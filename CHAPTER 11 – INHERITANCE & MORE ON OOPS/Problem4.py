@@ -18,8 +18,6 @@ class Complex:
     def __repr__(self):
         return f"({self.real} + {self.imag}i)"
 
-
-# Demo
 c1 = Complex(1, 2)
 c2 = Complex(3, 4)
 print('Add:', c1 + c2)
