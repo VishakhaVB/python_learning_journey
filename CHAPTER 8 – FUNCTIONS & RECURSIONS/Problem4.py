@@ -1,3 +1,5 @@
+# 4. Write a recursive function to calculate the sum of first n natural numbers.
+
 def sum_n(n):
 	"""Return the sum of first n natural numbers using recursion."""
 	if n <= 0:
