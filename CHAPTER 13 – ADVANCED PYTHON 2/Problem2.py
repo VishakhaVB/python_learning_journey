@@ -5,5 +5,4 @@
 name = 'Harry'
 marks = 72
 phone = '99999888'
-
 print('The name of the student is {}, his marks are {} and phone number is {}'.format(name, marks, phone))
